@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+        Keranjang Belanja
+    </ion-title>
+  </ion-toolbar>
+ </ion-header>
+<ion-content padding>
+  <div class="content">
+    <div class="artikel">
+      <div class="img">
+        <img src="https://4.bp.blogspot.com/-EduYN8Y3SoU/WZvZMGbmnuI/AAAAAAAAAn4/p2DkrI7F6i8WalQYKnKfz3XAOAjzh9zsACK4BGAYYCw/s1600/04-barang-berhasil-masuk-kerajang.jpg" alt="WOWI" class="src">
+      </div>
+      <h3> Sword </h3>
+    <ion-button color="danger">Beli barang</ion-button>
+    <ion-button color="primary">Rp. 100.000
+      </ion-button> 
+    </div>
+
+    <div class="artikel">
+        <div class="img">
+          <img src="https://4.bp.blogspot.com/-EduYN8Y3SoU/WZvZMGbmnuI/AAAAAAAAAn4/p2DkrI7F6i8WalQYKnKfz3XAOAjzh9zsACK4BGAYYCw/s1600/04-barang-berhasil-masuk-kerajang.jpg" alt="WOWI" class="src">
+        </div>
+        <h3> Sword </h3>
+      <ion-button color="danger">Beli barang</ion-button>
+      <ion-button color="primary">Rp. 100.000
+        </ion-button> 
+      </div>
+
+      <div class="artikel">
+          <div class="img">
+            <img src="https://4.bp.blogspot.com/-EduYN8Y3SoU/WZvZMGbmnuI/AAAAAAAAAn4/p2DkrI7F6i8WalQYKnKfz3XAOAjzh9zsACK4BGAYYCw/s1600/04-barang-berhasil-masuk-kerajang.jpg" alt="WOWI" class="src">
+          </div>
+          <h3> Sword </h3>
+        <ion-button color="danger">Beli barang</ion-button>
+        <ion-button color="primary">Rp. 100.000
+          </ion-button> 
+        </div>
+    
+  </div>  
+</ion-content>

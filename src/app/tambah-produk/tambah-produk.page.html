@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+        Tambah Produk
+    </ion-title>
+  </ion-toolbar>
+ </ion-header>
+
+<ion-content padding>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-input type="text" name="name" placeholder="Name Items"></ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+          <ion-label>Kategori</ion-label>
+          <ion-select value="Toram" okText="simpan">
+            <ion-select-option value="checkbox">Foto Event </ion-select-option>
+            <ion-select-option value="checkbox">Cetak Foto</ion-select-option>
+            <ion-select-option value="checkbox">Others</ion-select-option>
+          </ion-select>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-input type="number" name="harga" placeholder="Harga"></ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-textarea name="desc" placeholder="Diskripsi"></ion-textarea>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-button name="simpan" size="medium" expand="block">SIMPAN</ion-button>
+        <ion-button name="batal" size="medium" expand="block">BATAL</ion-button>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>
+      Booking Online
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+<ion-content>
+  <form  #form="ngForm" (ngSubmit)="register(form)">
+    <ion-grid>
+      <ion-row justify-content-center> 
+        <ion-col align-self-center size-md="auto" size-lg="9" size-xs="auto">
+          <div text-center>
+          </div>
+          <div padding>
+            <ion-item>
+              <ion-input  name="name" type="text" placeholder="isi alamat email anda "></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input name="password" type="password" placeholder="Password"></ion-input>
+            </ion-item>
+          </div>
+          <div padding>
+            <ion-button type="submit" size="medium" expand="block">Login</ion-button>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </form>
+</ion-content>

@@ -1,0 +1,18 @@
+ion-input {margin-bottom:10px;border-bottom:2px solid#0b2f5b;padding:15px 0}
+ion-grid {background: #fff;padding:10px;border-radius:3px;border:1px solid #ddd;}
+ion-textarea {height:200px;width:100%;border:1px solid #eee;}
+
+ion-content {--background:#307ad5;}
+
+ion-select {padding:15px;border-bottom:2px solid#0b2f5b;}
+
+ion-label {display:inline-block;border-bottom: 2px solid#0b2f5b;padding-bottom:7px;}
+
+ion-button{
+    --background: #043150;
+    --color: #ffffff;
+    //--padding: 14px 20px;
+    --margin: auto;
+    --border: none;
+    --cursor: pointer; 
+}
